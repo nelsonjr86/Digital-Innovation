@@ -4,5 +4,5 @@
 ___
 
 <h3 align="center">
-  <a href="#DIO Instagram">DIO Instagram</a>
+  <a href="#DIO-Instagram">DIO Instagram</a>
 </h3>
