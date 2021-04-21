@@ -4,5 +4,5 @@
 ___
 
 <h3 align="center">
-  <a href="#DIO%20Instagram">DIO Instagram</a>
+  <a href="https://github.com/nelsonjr86/Digital-Innovation/tree/main/DIO-Instagram">DIO Instagram</a>
 </h3>
