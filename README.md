@@ -4,5 +4,6 @@
 ___
 
 <h3 align="center">
-  <a href="https://github.com/nelsonjr86/Digital-Innovation/tree/main/DIO-Instagram">DIO Instagram</a>
+  <a href="https://github.com/nelsonjr86/Digital-Innovation/tree/main/DIO-Instagram">DIO Instagram</a>&nbsp;|&nbsp;
+  <a href="https://github.com/nelsonjr86/Digital-Innovation/tree/main/DIO-snake-game">Jogo da Cobrinha</a>&nbsp;|&nbsp;
 </h3>
