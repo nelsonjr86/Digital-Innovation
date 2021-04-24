@@ -13,7 +13,7 @@ ___
 
 ___
 
-## 📖 Sobre   
+## information_source   
 O famoso **Jogo da Cobrinha** (ou Snake Game) com JavaScript. O projeto foi desenvolvido durante o Bootcamp **HTML Web Developer** da **Digital Innovation One**, utilizando **HTML5 Canvas** e **localStorage** com JavaScript para persistência dos dados, com implementação de um sistema de **pontuação** e de **recordes**.
 
 ---
@@ -24,7 +24,7 @@ Navegador Web
 
 ---
 
-## 🚀 Tecnologias e ferramentas utilizadas
+## :rocket: Tecnologias Utilizadas
 - **HTML5**
 - **CSS3**
 - **JavaScript** 
