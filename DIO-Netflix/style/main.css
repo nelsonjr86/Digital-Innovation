@@ -1,0 +1,258 @@
+* {
+    /* resets para padronizar os tamanho em todos os navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px transparent solid ; */
+}
+
+/* variáveis */
+:root {
+    --netflixBlack: #141414;
+    --netflixRed: #E50914;  
+}
+
+body {
+    background-color: var(--netflixBlack);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+header .container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px transparent solid;
+}
+
+header .titleAndButton {
+    display: flex;
+    align-items: center;
+    border: 1px transparent solid;
+}
+
+header .logoNet {
+    height: 35;
+    width: 130px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: white;
+    font-weight: 520;
+}
+
+.buttonsSettings > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Filme selecionado */
+
+.selectedMovie {
+    font-size: 16px;
+    height: 400px;
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../img/Comic.jpg");
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    transition: 3s ease all;
+}
+
+/* filmes */
+.BATMANOCavaleirodasTrevaRenasce {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/BATMANOCavaleirodasTrevaRenasce.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.EsquadraoSuicida {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/EsquadraoSuicida.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Aquaman {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Aquaman.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Aves_de_Rapina {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Aves_de_Rapina.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Liga_da_Justiça {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Liga_da_Justiça.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Homem_de_Aco {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Homem_de_Aco.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Mulher_Maravilha {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Mulher_Maravilha.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Mulher_Maravilha_1984 {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Mulher_Maravilha_1984.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Batman_v_Superman {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Batman_v_Superman.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Coringa {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Coringa.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Shazam {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Shazam.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.LanternaVerde {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/LanternaVerde.jpg");
+    background-size: contain; /* largura e comprimento */
+}
+
+.Comic {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Comic.jpg");
+    background-size: cover; /* largura e comprimento cover contain*/
+}
+
+.HomemdeFerro3 {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/HomemdeFerro3.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.ThorOMundoObscuro {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/ThorOMundoObscuro.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.CapitaoAmericaOPrimeiroVingador {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/CapitaoAmericaOPrimeiroVingador.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.OsVingadores {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/OsVingadores.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.OIncrivelHulk {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/OIncrivelHulk.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.HomemFormiga {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/HomemFormiga.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.CapitaoAmericaOSoldadoInvernal {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/CapitaoAmericaOSoldadoInvernal.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.GalaxiadeGuardioes {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/GalaxiadeGuardioes.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.Homem_de_Ferro_2 {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Homem_de_Ferro_2.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.Homem_de_Ferro {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Homem_de_Ferro.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+.OsVingadores2 {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/OsVingadores2.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+.Thor {
+    background: linear-gradient(to right, rgba(0,0,0,.80), rgba(0, 0, 0, 0.05)100%), url("../img/Thor.jpg");
+    background-size: contain; /* largura e comprimento cover contain*/
+}
+
+
+.selectedMovie .container {
+    margin-left: 10px;
+    /* width: 40%; */
+}
+
+.selectedMovie  .selectMovieName {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.selectedMovie .selectMovieDescription {
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+
+
+.button {
+    background-color: rgba(0,0,0,.70);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin-left: 10px;
+    border: 2px transparent solid;
+    border-radius: 5px;
+
+    /* abaixo um atributo que cuida do tempo de transição dos estados CSS, todos que tiverem vinculo com elemento button*/
+    transition: 0.3s ease all;
+}
+
+.button:hover {
+    border: 2px white solid;
+    background-color: black
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+/* configs do carrousel */
+
+.genre {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+}
+
+
